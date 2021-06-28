@@ -1,0 +1,29 @@
+package examen1;
+import java.util.Scanner;
+public class murallaAsteriscos {
+static Scanner sc=new Scanner(System.in);
+	static int numero;
+
+	public static void muralla(int numero) {
+		for(int i=0;i<numero;i++) {
+				System.out.print("**** ");
+			}
+		System.out.println();
+		for(int i=0;i<numero;i++) {
+		
+		System.out.print("**** ");
+		}
+		System.out.println();
+		for(int i=0;i<numero*5-1;i++) {
+			System.out.print("*");
+		}
+		
+	}
+	public static void main(String[] args) {
+		System.out.println("Introduzca un número");
+		numero=sc.nextInt();
+		murallaAsteriscos.muralla(numero);
+
+	}
+
+}
