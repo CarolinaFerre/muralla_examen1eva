@@ -8,6 +8,8 @@ El usuario introduce: 3
 El programa mostrará:
 
 oooo oooo oooo
+
 oooo oooo oooo
+
 oooooooooooooo
 
